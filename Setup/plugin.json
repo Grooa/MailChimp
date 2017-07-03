@@ -1,7 +1,25 @@
 {
-    "title": "Mailchimp",
-    "version": "1.00",
-    "name": "Mailchimp",
-    "description": "Sign up for newsletters from registration form",
-    "author": "Truls Rustad Fossum"
+  "title": "Mailchimp",
+  "version": "1.00",
+  "name": "Mailchimp",
+  "description": "Sign up for newsletters from registration form",
+  "author": "Truls Rustad Fossum",
+  "options": [
+    {
+      "label": "Api Key",
+      "name": "secret",
+      "type": "Text"
+    },
+    {
+      "label": "Default Subscription List id",
+      "name": "listId",
+      "type": "Text"
+    },
+    {
+      "label": "Recipient Email",
+      "name": "recipientEmail",
+      "hint": "Will receive notifications on user registrations etc.",
+      "type": "Email"
+    }
+  ]
 }

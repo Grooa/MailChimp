@@ -9,6 +9,7 @@ class Filter
 
 	public static function User_registrationForm($form)
 	{
+
 		$form->addField(
 			new Field\Text(array(
 				'name' => 'firstName',
